@@ -2,7 +2,7 @@ class Paper {
   constructor(x,y,radius) {
     var options ={
       isStatic: false,
-      friction: 0.5,
+      friction: 0,
       density: 1.2,
       restitution: 0.3
     }
