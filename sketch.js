@@ -38,7 +38,7 @@ function setup() {
 		}
 	});
 
-	launcher = new Launcher(paper1.body,{x: 760, y: 110});
+	launcher = new Launcher(paper1.body,{x: 610, y: 160});
 
 	Engine.run(engine);
   

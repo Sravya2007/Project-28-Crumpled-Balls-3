@@ -3,10 +3,10 @@ class Dustbin {
         var options ={
            isStatic: true
         }
-        this.rightBody = Bodies.rectangle(1270, 525, 40, 315, options);
-        this.middleBody = Bodies.rectangle(1210, 670, 200, 40, options);
+        this.rightBody = Bodies.rectangle(1470, 525, 40, 315, options);
+        this.middleBody = Bodies.rectangle(1360, 670, 200, 40, options);
         this.image = loadImage("sprites/Green_Dustbin_Pic.png");
-        this.leftBody = Bodies.rectangle(1150, 525, 40, 315, options);
+        this.leftBody = Bodies.rectangle(1250, 525, 40, 315, options);
         World.add(world, this.rightBody);
         World.add(world, this.middleBody);
         World.add(world, this.leftBody);
@@ -20,6 +20,6 @@ class Dustbin {
         rect(pos1.x, pos1.y, 200, 40);
         rect(pos2.x, pos2.y, 40, 315);
         imageMode(CENTER);
-        image(this.image, 1210, 530, this.width, this.height);
+        image(this.image, 1360, 530, this.width, this.height);
     }
 }
